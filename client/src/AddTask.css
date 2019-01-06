@@ -1,0 +1,22 @@
+.add-task {
+  text-align: center;
+}
+.btn-container {
+  margin: 1em auto;
+  max-width: 45em;
+}
+
+.add-paper {
+  padding: 0.5em;
+  max-height: 2em;
+  overflow-y: hidden;
+  transition: max-height 0.5s linear;
+}
+
+.add-paper.expanded {
+  max-height: 60em;
+}
+
+.paper-three-dots {
+  margin-left: 45em !important;
+}
